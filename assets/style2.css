@@ -1,0 +1,52 @@
+    
+     *{
+        padding:0;
+        margin:0;
+
+      }
+      body{
+        overflow:hidden;        
+      }
+      .wrapper {
+         display: table;
+         padding: 0;
+         width: 100vw;
+         height: 85vh;
+         position: absolute;
+      }
+      .container {
+         display: table-cell;
+         vertical-align: middle;
+      }
+      .canvas-container {
+         position: relative;
+         max-width: 1080px;
+         min-width: 320px;
+         margin: 0 auto;
+
+      }
+      #theCanvas {
+          background: #34495E;
+         width: 100%;
+         height: auto;
+
+      }h2{
+        text-align: center;
+        padding-top: 80vh;
+        font-family: 'Tangerine', cursive;
+        font-size: 50px;
+        color: #FFFFFF;
+      }
+      h1{
+        color: white;
+        font-size: 10vh;
+        text-align: center;
+        font-family: 'Anton', sans-serif;
+      }
+      .How{
+        float: left;
+        margin-top: 30vh;
+        font-size: 1vw;
+        color: white;
+        margin-left: 2vw
+      }
